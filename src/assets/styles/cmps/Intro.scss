@@ -1,0 +1,19 @@
+.introduction {
+    .main-cover-container {
+        position: relative;
+        height: 800px;
+    }
+
+    .main-cover-container::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.2;
+        z-index: 1;
+    }
+}
