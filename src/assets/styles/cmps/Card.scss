@@ -26,6 +26,12 @@
         align-items: center;
         margin-block-start: 2.5em;
     }
+
+    transition: 1s ease;
+
+    &:hover {
+        transform: scale(1.02);
+    }
 }
 
 .card::after {

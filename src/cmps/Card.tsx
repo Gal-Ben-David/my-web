@@ -6,7 +6,7 @@ export function Card() {
                 <h3>Full Stack Developer</h3>
 
                 <div className="links">
-                    <button className="btn btn-light download-btn">Download resume</button>
+                    <button className="btn btn-light download-btn">Get my resume</button>
                     <a href="https://github.com/Gal-Ben-David" target="_blank">
                         <img className="github-icon" src="/img/intro/github.png" />
                     </a>

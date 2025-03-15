@@ -7,6 +7,11 @@
 /*base*/
 @import './basics/base';
 
+/*pages*/
+@import './pages/HomePage.scss';
+
 /*cmps*/
 @import './cmps/Intro.scss';
 @import './cmps/Card.scss';
+@import './cmps/SmallCard.scss';
+@import './cmps/About.scss';

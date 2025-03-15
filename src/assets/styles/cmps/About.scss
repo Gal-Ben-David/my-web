@@ -1,0 +1,17 @@
+.about {
+    display: grid;
+    gap: 5em;
+
+    &>* {
+        display: grid;
+    }
+
+    &>*:not(:first-child) {
+        gap: 4em;
+    }
+
+    .education-list {
+        display: flex;
+        gap: 2em;
+    }
+}
