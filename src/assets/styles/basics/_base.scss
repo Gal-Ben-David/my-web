@@ -26,6 +26,12 @@ img {
     .introduction & {
         height: 100%;
     }
+
+    .links & {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
 }
 
 .btn {
@@ -45,7 +51,6 @@ img {
 
 button {
     &.download-btn {
-        margin-block-start: 2.5em;
         border-radius: 5em;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }

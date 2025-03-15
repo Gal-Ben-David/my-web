@@ -4,9 +4,9 @@
     gap: .5em;
     position: relative;
 
-    width: 52vw;
-    max-width: 20em;
-    padding: 2em 4em;
+    width: 65vw;
+    max-width: 25em;
+    padding: 2em;
     border-radius: 1.5em;
 
     text-align: center;
@@ -17,6 +17,14 @@
 
     .card-details {
         margin-block-start: 4em;
+        width: 100%;
+    }
+
+    .links {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        margin-block-start: 2.5em;
     }
 }
 
