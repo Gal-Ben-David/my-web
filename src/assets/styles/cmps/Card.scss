@@ -1,0 +1,39 @@
+.card {
+    display: grid;
+    justify-content: center;
+    gap: .5em;
+    position: relative;
+
+    width: 52vw;
+    max-width: 20em;
+    padding: 2em 4em;
+    border-radius: 1.5em;
+
+    text-align: center;
+    background-color: $clr-bg-light-1;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+
+    z-index: 2;
+
+    .card-details {
+        margin-block-start: 4em;
+    }
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    display: block;
+
+    width: 150px;
+    height: 150px;
+    background-image: url('../../../../public/img/intro/gal-my-web.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid $clr-bg-light-1;
+
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}

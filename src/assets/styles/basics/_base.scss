@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'mukta-regular';
 }
 
 h1,
@@ -8,7 +9,13 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 0.6em;
+    margin: 0;
+}
+
+h2 {
+    .card & {
+        font-size: 2rem;
+    }
 }
 
 img {
@@ -18,5 +25,28 @@ img {
 
     .introduction & {
         height: 100%;
+    }
+}
+
+.btn {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.3em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-family: inherit;
+    cursor: pointer;
+
+    &-light {
+        @include btn($type: 'light');
+    }
+
+}
+
+button {
+    &.download-btn {
+        margin-block-start: 2.5em;
+        border-radius: 5em;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
 }

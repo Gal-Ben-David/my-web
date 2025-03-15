@@ -1,8 +1,12 @@
+/*setup*/
+@import './setup/layout';
+@import './setup/vars';
+@import './setup/typography';
+@import './setup/mixins';
+
 /*base*/
 @import './basics/base';
 
-/*setup*/
-@import './setup/layout';
-
 /*cmps*/
 @import './cmps/Intro.scss';
+@import './cmps/Card.scss';
