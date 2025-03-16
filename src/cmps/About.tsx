@@ -28,7 +28,7 @@ export function About() {
             imgUrl: 'public/img/about/elbit_systems_logo.png',
             title: 'Operation QA Engineer',
             location: 'Elbit Systems',
-            id: '102'
+            id: '102',
         }
     ]
     return (
