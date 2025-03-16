@@ -3,24 +3,29 @@
 
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: center;
 
-    width: 20em;
-    height: 10em;
+    width: 18em;
+    height: 8em;
+    padding: .5em;
     border-radius: 1em;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
     .card-image {
         position: absolute;
-        top: -40px;
+        top: -30px;
         left: 50%;
         transform: translateX(-50%);
 
 
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .small-card-details {
+        margin-block-start: 2em;
     }
 }

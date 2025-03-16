@@ -17,6 +17,7 @@ export function Card() {
 
             </div>
 
+            <p className="inspiration-sentence">Love Sun Sea</p>
 
         </section>
 

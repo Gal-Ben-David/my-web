@@ -10,8 +10,13 @@
         gap: 4em;
     }
 
-    .education-list {
+    .education-list,
+    .work-experience-list {
         display: flex;
         gap: 2em;
+
+        @include for-mobile-layout {
+            flex-direction: column;
+        }
     }
 }
